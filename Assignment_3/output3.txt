@@ -1,0 +1,26 @@
+PS C:\Users\ROHIT\OneDrive\Desktop\SM\DAA_Submissions> cd "c:\Users\ROHIT\OneDrive\Desktop\SM\DAA_Submissions\Assignment_3\" ; if ($?) { g++ Assignment_3.cpp -o Assignment_3 } ; if ($?) { .\Assignment_3 }
+≡ƒ¢╢ Emergency Relief Boat Loading System
+Enter maximum weight capacity of the boat (in kg): 55
+
+--- Sorted Items (by Priority, then Value/Weight) ---
+Item                Weight    Value     Priority    Value/Weight   Type
+----------------------------------------------------------------------------------
+Infant Formula      5.0       50.0      1           10.00          Indivisible    
+Medical Kits        10.0      100.0     1           10.00          Indivisible    
+Water Filters       2.0       8.0       2           4.00           Indivisible    
+Drinking Water      30.0      90.0      2           3.00           Divisible      
+Blankets            15.0      45.0      3           3.00           Indivisible    
+Food Packets        20.0      60.0      3           3.00           Divisible      
+
+--- Items Selected for Transport ---
+ - Indivisible: Infant Formula | Taken: 5.00 kg (FULL) | Utility: 50.00 | Cap. Left: 50.00 kg
+ - Indivisible: Medical Kits | Taken: 10.00 kg (FULL) | Utility: 100.00 | Cap. Left: 40.00 kg
+ - Indivisible: Water Filters | Taken: 2.00 kg (FULL) | Utility: 8.00 | Cap. Left: 38.00 kg
+ - Divisible: Drinking Water | Taken: 30.00 kg (100.00%) | Utility: 90.00 | Cap. Left: 8.00 kg       
+ - Indivisible: Blankets | Skipped (Too Heavy: 15.00 kg)
+ - Divisible: Food Packets | Taken: 8.00 kg (40.00%) | Utility: 24.00 | Cap. Left: 0.00 kg
+
+        FINAL TRANSPORT SUMMARY
+Total weight carried:     55.00 kg
+Remaining boat capacity:  0.00 kg
+Total utility value:      272.00 units

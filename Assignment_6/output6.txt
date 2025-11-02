@@ -1,0 +1,30 @@
+PS C:\Users\ROHIT\OneDrive\Desktop\SM\DAA_Submissions\Assignment_6> cd "c:\Users\ROHIT\OneDrive\Desktop\SM\DAA_Submissions\Assignment_6\" ; if ($?) { g++ Assignment_6.cpp -o Assignment_6 } ; if ($?) { .\Assignment_6 }
+Enter total number of essential items (N): 5
+Enter maximum truck capacity (W in kg): 20
+
+Enter details for each item (weight in kg and utility value):
+Item 1 weight (kg): 5
+Item 1 utility value: 10
+Item 2 weight (kg): 4
+Item 2 utility value: 40
+Item 3 weight (kg): 10
+Item 3 utility value: 30
+Item 4 weight (kg): 5
+Item 4 utility value: 15
+Item 5 weight (kg): 6
+Item 5 utility value: 24
+
+=======================================================
+  Maximum Utility (Optimal Relief Load): 94
+=======================================================
+
+Selected Items:
+Item    Weight    Utility   Included (1/0)
+---------------------------------------------
+1       5         10        0
+2       4         40        1
+3       10        30        1
+4       5         15        0
+5       6         24        1
+
+Total Selected Weight: 20 kg (Max Capacity: 20 kg)
