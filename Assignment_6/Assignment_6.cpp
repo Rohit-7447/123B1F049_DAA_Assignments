@@ -1,3 +1,8 @@
+// Name : Rohit Bhika Kolate
+// PRN : 123B1F049
+// Year : TY-IT(A)
+// Batch : A3
+
 // Emergency Relief Supplies system using 0/1 Knapsack 
 #include <iostream>
 #include <vector>

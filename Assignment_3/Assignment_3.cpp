@@ -1,3 +1,8 @@
+// Name : Rohit Bhika Kolate
+// PRN : 123B1F049
+// Year : TY-IT(A)
+// Batch : A3
+
 //emergency relief boat loading system
 #include <iostream>
 #include <vector>
